@@ -97,8 +97,10 @@ From there, you can select all changes and clicking "Import Changes"
 
 You can quickly run all migrations using `drush`:
 ```
-drush -y mim --group islandora_7x
+drush -y --userid=1 --uri=http://localhost:8000 mim --group islandora_7x
 ```
+
+(the basic userid and uri will work for test migration when using a local install but will need to be updated to match your actual userid/uri for more customized migrations)
 
 If you want to go through the UI, you can visit `admin/structure/migrate` to see a list of migration groups. The migrations provided by this module have the machine name `islandora_7x`.
 
