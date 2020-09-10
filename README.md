@@ -50,7 +50,7 @@ Please read the _Command Line Configuration_ section for input value description
 
 #### Optional:
 To verify saved changes go to admin/config/development/configuration/single/export
-- Configuration type: migration group
+- Configuration type: migration
 - Configuration Name: Each of the following should reflect the values given.
   - migrate_plus.migration.islandora_audit_file
   - migrate_plus.migration.islandora_audit_media
